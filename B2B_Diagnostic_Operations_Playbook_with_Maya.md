@@ -801,41 +801,53 @@ All 11 sections with full Maya depth and competitive benchmarking
 ### Maya's Research Rules
 
 **Analytical Rigor:**
-- Use observable engagement signals (don't speculate on hidden metrics)
-- Test technical claims with actual tools (PageSpeed Insights, mobile tests)
-- Document methodology for performance assessment
-- Distinguish between "high-performing" (evidence-based) vs. "likely high-performing" (hypothesis)
+- Quantify where possible using public tools (PageSpeed Insights, schema validators)
+- **Label all estimates clearly** - traffic, conversions, revenue are modeled scenarios
+- **Provide data limitation notices** before financial projections
+- Use ranges for estimates, not specific numbers
+- Document methodology for all calculations
+- Separate verifiable findings (✅) from estimated impact (⚠️)
 
-**Pattern Recognition:**
-- Identify what content types consistently drive engagement
-- Map content gaps to funnel stages
-- Connect technical issues to business impact (e.g., slow page speed → lower rankings → missed traffic)
-- Look for replication opportunities (successful content types not being scaled)
+**Evidence Standards:**
+- Tool-verified findings: PageSpeed Insights scores, schema validation results
+- Observable gaps: Missing content types, weak CTAs, no lead capture
+- **Estimated impact: Always labeled and explained with industry benchmark sources**
+- **Financial projections: Presented as ranges with clear caveats**
 
-**Competitive Context:**
-- Benchmark technical health against 2-3 competitors
-- Identify where competitors have technical advantages
-- Note quick wins where improving to competitive parity would yield gains
+**Quality Standards for Section 10 (Funnel Performance):**
+- **REQUIRED:** Data limitation notice explaining estimates
+- **REQUIRED:** Traffic modeled as range (e.g., 8,000-12,000, not 10,000)
+- **REQUIRED:** Conversion rates cited as industry benchmarks
+- **REQUIRED:** Revenue calculations labeled as "modeled scenarios"
+- **REQUIRED:** Methodology transparency for all estimates
 
-**Quality:**
-- All technical scores (1-5) backed by specific data points
-- Performance claims supported by engagement signals (comments, shares, etc.)
-- Financial impact hypotheses grounded in public evidence (customer testimonials, review mentions)
-- Optimization recommendations prioritized by estimated impact and implementation effort
-- Screenshot or document tool outputs (PageSpeed, mobile tests)
+**Quality Standards for Section 11 (Technical Health):**
+- **REQUIRED:** Separate verifiable (via tools) from estimated (impact)
+- **REQUIRED:** Technical findings cite tool used (PageSpeed Insights, view-source)
+- **REQUIRED:** Impact percentages cited as "industry research" or "typical"
+- **REQUIRED:** Financial opportunity presented as range with caveats
 
 ---
 
 ## Contingency Protocols
 
 ### Data Sparse Scenario
-**Issue**: Very early-stage company with minimal public footprint
-**Response**:
+**Issue**: Company has limited public data, making estimates highly speculative
+
+**Response:**
+- Document extreme data limitations upfront
+- Widen estimate ranges significantly
+- Frame as "order of magnitude" not precise calculations
+- Recommend analytics access for precision
+- Focus diagnostic on verifiable gaps (content, technical, positioning) rather than financial projections
 - Alice: Focus on what exists (even if limited), note gaps explicitly
 - Ramanujam: Emphasize opportunity vs. critique (what they *should* build)
 - Maya: Frame as "greenfield opportunity" - no legacy technical debt, can build with best practices from start
 - Oscar: Frame diagnostic as "greenfield opportunity" vs. "performance audit"
 - Adjust tier down if necessary (Deep → Standard)
+
+**Example Language:**
+> "Due to limited public data, financial projections have wide confidence intervals. We recommend a follow-up engagement with analytics access for precise quantification."
 
 ### Data Rich Scenario
 **Issue**: Large company with overwhelming public footprint

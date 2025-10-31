@@ -537,4 +537,135 @@ Structural Optimization Priority:
 
 ---
 
+## Data Transparency & Estimation Guidelines
+
+### What We Can Verify (Public Data Only)
+
+**Observable & Verifiable:**
+- ✅ Content quality (reading published articles)
+- ✅ Technical SEO issues (view-source, PageSpeed Insights, mobile test)
+- ✅ Schema markup presence (HTML inspection)
+- ✅ Published case studies, reviews, testimonials
+- ✅ Competitor positioning (public websites, messaging)
+- ✅ Funding information (Crunchbase, press releases)
+- ✅ Social media presence and engagement (public profiles)
+- ✅ Compliance certifications (publicly claimed or not claimed)
+
+**NOT Observable (Private Data):**
+- ❌ Actual website traffic numbers
+- ❌ Actual conversion rates
+- ❌ Actual revenue or deal sizes
+- ❌ Actual funnel drop-off percentages
+- ❌ Internal analytics or CRM data
+- ❌ Customer churn or retention rates
+
+### How to Handle Estimates
+
+**When Financial Impact Estimation is Necessary:**
+
+**Rule 1: Always Label Estimates Clearly**
+- Use: "Estimated," "Projected," "Modeled," "Industry benchmark," "Typical range"
+- Avoid: Presenting estimates as factual findings
+
+**Rule 2: Provide Data Limitation Notices**
+Before quantitative sections (especially Sections 10 & 11), include:
+> "**Data Limitation:** The following analysis is based on estimated traffic projections and industry benchmarks, as [Company] does not publicly disclose analytics data. All revenue calculations are modeled scenarios. Actual results require analytics access."
+
+**Rule 3: Use Ranges, Not Specific Numbers**
+- ❌ "You are losing $1.97M annually"
+- ✅ "Estimated opportunity range: $1-3M annually (based on industry benchmarks)"
+
+**Rule 4: Explain Derivation of Estimates**
+- "Estimated 8,000-12,000 monthly visitors (modeled based on ~50 published articles × 150-250 avg visits/article, typical for B2B content libraries)"
+- Show your work, don't just state numbers
+
+**Rule 5: Separate Verifiable from Estimated**
+- Mark verifiable findings: ✅ VERIFIED
+- Mark estimates: ⚠️ ESTIMATED
+
+### Section-Specific Guidelines
+
+**Section 10 (Content Funnel Performance) - HIGH ESTIMATE RISK:**
+
+**What CAN be verified:**
+- ✅ Content funnel stages exist (awareness/consideration/decision content present)
+- ✅ Content gaps exist (missing mid-funnel guides, ROI tools, etc.)
+- ✅ CTAs are present or absent (observable on website)
+
+**What MUST be estimated:**
+- ⚠️ Traffic volume (model based on content volume × industry averages)
+- ⚠️ Conversion rates (use industry benchmarks: B2B SaaS typically 5-10%)
+- ⚠️ Revenue impact (calculate based on modeled traffic × conversion × estimated deal sizes)
+
+**Required Framing:**
+> "Without access to [Company]'s analytics, we estimate [X] based on industry benchmarks for companies with similar content volume and market positioning. Actual impact requires Google Analytics validation."
+
+**Section 11 (Technical Content Health) - MEDIUM ESTIMATE RISK:**
+
+**What CAN be verified:**
+- ✅ Schema markup presence (view-source inspection)
+- ✅ Page speed metrics (PageSpeed Insights, GTmetrix)
+- ✅ Accessibility issues (HTML inspection, WAVE tool)
+- ✅ Internal linking patterns (content audit)
+
+**What MUST be estimated:**
+- ⚠️ Visibility impact percentages ("30-40% visibility loss")
+- ⚠️ Revenue opportunity from fixes
+
+**Required Framing:**
+> "Based on industry research (Google studies, Moz research), these technical issues typically reduce organic visibility by [X-Y%]. Estimated financial impact: $[X-Y]M based on modeled traffic scenarios."
+
+**Section 9 (Opportunities) - HIGH ESTIMATE RISK:**
+
+**For Investment Estimates:**
+- ✅ Use industry-standard service costs
+- ✅ Provide ranges ($75-125K, not $100K)
+- ✅ Explain: "Estimated based on typical content agency rates for [deliverable]"
+
+**For ROI Projections:**
+- ⚠️ NEVER state as guarantee: "This will return 19x ROI"
+- ✅ Use ranges and conditional language: "Projected ROI: 15-25x based on typical B2B SaaS funnel optimization outcomes"
+- ✅ Add caveat: "Actual ROI depends on current traffic, conversion rates, and deal sizes"
+
+### Template Language for Estimates
+
+**Traffic Estimation Template:**
+> "**Estimated traffic:** [X-Y] monthly visitors. Methodology: ~[N] published articles × [X-Y] average visits per article (industry benchmark for B2B content). Actual traffic requires Google Analytics access."
+
+**Conversion Estimation Template:**
+> "**Estimated conversion rate:** [X-Y%]. Industry benchmark for B2B SaaS companies without optimized funnels: [X%]. Top performers achieve [Y%]. Actual conversion rate requires analytics validation."
+
+**Financial Impact Template:**
+> "**Estimated opportunity range:** $[X-Y]M annually. Methodology: Modeled traffic ([X-Y] visits) × estimated conversion improvement ([X%] → [Y%]) × industry-average deal value ($[X]). Requires validation against actual performance data."
+
+**Investment Estimate Template:**
+> "**Estimated investment:** $[X-Y]K. Based on industry-standard costs for [deliverable/service]. Actual cost depends on scope, agency rates, and timeline."
+
+**ROI Projection Template:**
+> "**Projected ROI:** [X-Y]x (based on typical [industry] outcomes for [initiative type]). Actual ROI depends on current metrics and execution quality. Timeframe: [X-Y] months to payback."
+
+### Ethical Checklist for Financial Estimates
+
+Before including any financial projection in a diagnostic, verify:
+
+- [ ] Estimate is clearly labeled as "Estimated," "Projected," or "Modeled"
+- [ ] Data limitation notice explains what we don't have access to
+- [ ] Methodology for deriving estimate is transparent
+- [ ] Range is provided (not a single specific number)
+- [ ] Industry benchmark source is cited or noted
+- [ ] Caveat about validation against actual data is included
+- [ ] Language is conditional ("could unlock," "potential," "estimated"), not definitive ("will generate," "you are losing")
+
+### When to Recommend Analytics Access
+
+If a client wants precise financial quantification, recommend:
+
+> "This diagnostic provides directional insights based on industry benchmarks. For precise funnel analysis and revenue quantification, we recommend a paid engagement with Google Analytics and CRM access. This would enable us to:
+> - Measure actual traffic and conversion rates
+> - Identify exact drop-off points with session recordings
+> - Calculate specific revenue impact with confidence intervals
+> - Model ROI scenarios based on your actual data"
+
+---
+
 **This enhanced framework with Maya transforms public intelligence into strategic advantage while maintaining the highest ethical standards. The addition of content funnel performance analysis and technical content health assessment provides a complete picture of both content effectiveness and optimization opportunities.**
